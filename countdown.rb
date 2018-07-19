@@ -2,10 +2,9 @@
 require 'pry'
 
 def countdown(n)
-  counter = n
-  while counter > 0 do
+  while n > 0 do
     puts "#{n} SECOND(S)!"
-    counter -= 1
+    n -= 1
     binding.pry
   end
 end
